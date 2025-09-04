@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Your post</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <h1>Edit Your Post</h1>
+    <div class="container">
+        <h3><span>Id : </span><%= post.id %></h3>
+        <h3><span>User : @</span><%= post.username %></h3>
+        <form action="/posts/<%=post.id%>?_method=PATCH" method="post">
+            <input type="text" name="img" placeholder="Enter your new image url" >
+            <textarea name="content" rows="10" cols="50"><%= post.content %></textarea>
+            <button type="submit">submit</button>
+        </form>
+        <!-- <a href="http://localhost:8080/posts" class="seeDetails">Back to home</a> -->
+    </div>
+</body>
+</html>

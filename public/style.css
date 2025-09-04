@@ -1,0 +1,99 @@
+body{
+    background-color: #7bcada;
+}
+h1{
+    color:maroon;
+    text-align: center;
+    margin-bottom: 20px;
+}
+div{
+    /* height: 500px; */
+    width: 400px;
+    color:#222;
+    background-color: wheat;
+    padding:10px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+.container{
+    /* height: 500px; */
+    width: 400px;
+    color:#222;
+    background-color: wheat;
+    padding:10px;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 10px;
+    padding-bottom: 30px;
+}
+div .user{
+    font-style: italic;
+    font-weight: 500;
+    margin-bottom: 10px;
+
+}
+div .img{
+    width:100%;
+    height: 300px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+}
+div .showimg{
+    width:100%;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.443);
+}
+div .content{
+    color:#222;
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+.addPost{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px ;
+    margin-left: 400px;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: maroon;
+    border: 1px solid black;
+    border-radius: 25px;
+    width: 400px;
+    transition: all 0.3s ease;
+}
+.addPost:hover{
+     box-shadow: 2px 2px 8px black;
+}
+.seeDetails{
+    text-decoration: none;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: maroon;
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.seeDetails:hover{
+     box-shadow: 2px 2px 8px black;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: wheat;
+    background-color: maroon;
+    border: 1px solid black;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    box-shadow: 2px 2px 8px black;
+}
+span{
+    font-size: 22px;
+    font-weight: 600;
+}

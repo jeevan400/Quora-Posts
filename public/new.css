@@ -1,0 +1,46 @@
+body{
+    background-color: #7bcada;
+}
+div{
+    background-color: wheat;
+    border-radius: 5px;
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    padding: 10px;
+}
+div h1, h1{
+    color: maroon;
+    text-align: center;
+    text-transform: uppercase;
+}
+div input{
+    height: 30px;
+    width:90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left:15px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+div textarea{
+    width:90%;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding-left:15px;
+    font-size: 16px;
+    font-weight: 400;
+}
+div button{
+    color: wheat;
+    background-color: maroon;
+    padding:10px 20px;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
