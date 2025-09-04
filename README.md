@@ -31,6 +31,7 @@ npm install
 
 # 4. Start the server
 node index.js
+```
 
 ##📸 Screenshots
 #🏠 Homepage
